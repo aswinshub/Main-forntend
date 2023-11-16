@@ -10,7 +10,7 @@ const Home = () => {
         <section className="banner-container">
           <div className="container">
             <div className="left-section">
-              <h1>Welcome to Intenship Portal</h1>
+              <h1>Welcome to Internship Portal</h1>
               <p>
                 As a college student, you might wonder what kind of computer
                 science internships are available to you. Whether full time or
