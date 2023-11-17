@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 
+
 const Home = () => {
   return (
     <div>
@@ -73,6 +74,18 @@ const Home = () => {
             <br /> <h4>Intenship in Artifical Inteligence and Machine Learning</h4>
           </div>
         </div>
+
+<div >
+
+      
+
+
+
+    </div>
+
+
+
+
 
         <footer>
           Design and Developed by <span>Aswin Chandran</span>
