@@ -1,9 +1,7 @@
 import React from "react";
 import "./style.css";
 
-
 const Home = () => {
-
   return (
     <div>
       <main>
@@ -21,39 +19,61 @@ const Home = () => {
 
               <button> Login</button>
             </div>
-            <div className="right-section">
-              <h4>Please fill the form</h4>
-              <form action="" autocomplete="off">
-                <div className="input-group">
-                  <input type="text" id="name" required />
-                  <label for="name">Name</label>
-                </div>
-                <div className="input-group">
-                  <input type="text" id="email" required />
-                  <label for="email">Email</label>
-                </div>
-                <div className="input-group">
-                  <input type="text" id="password" required />
-                  <label for="password">Password</label>
-                </div>
-                <div className="submit-section">
-                  <input
-                    type="submit"
-                    value="Submit"
-                    className="submit-button"
-                  />
-                </div>
-              </form>
-            </div>
           </div>
         </section>
-<div className="card">
-  
+        <h2>Intership Courses</h2>
+        <div className="card">
+          <div className="cardone">
+            <img
+              src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Advantages_and_Disadvantages_of_artificial_intelligence.jpg"
+              alt=""
+            />
+            <br />
+            <h4>
+              Intenship in Artifical Inteligence and Machine Learning
+            </h4>
+          </div>
+          <div className="cardtwo">
+           
+            <img
+              src="https://media.licdn.com/dms/image/D5612AQE0r5WC8r0HQg/article-cover_image-shrink_720_1280/0/1657711469335?e=2147483647&v=beta&t=y46kqfqImgi-IbshBGRs3lMz1HCTBvL8RjFAILShitg"
+              alt=""
+            />
+            <br />
+            <h4>Intenship in Cyber Security</h4>
+          </div>
+          <div className="cardthree">
+          <img
+              src="https://media.licdn.com/dms/image/D5612AQE0r5WC8r0HQg/article-cover_image-shrink_720_1280/0/1657711469335?e=2147483647&v=beta&t=y46kqfqImgi-IbshBGRs3lMz1HCTBvL8RjFAILShitg"
+              alt=""
+            />
+            <br /><h4>Intenship in Data science</h4>
+          </div>
+        </div>
+        <div className="card">
+          <div className="cardone">
+          <img
+              src="https://media.licdn.com/dms/image/D5612AQE0r5WC8r0HQg/article-cover_image-shrink_720_1280/0/1657711469335?e=2147483647&v=beta&t=y46kqfqImgi-IbshBGRs3lMz1HCTBvL8RjFAILShitg"
+              alt=""
+            />
+            <br /> <h4>Intenship in Full Stack Development (MERN)</h4>
+          </div>
+          <div className="cardtwo">
+          <img
+              src="https://media.licdn.com/dms/image/D5612AQE0r5WC8r0HQg/article-cover_image-shrink_720_1280/0/1657711469335?e=2147483647&v=beta&t=y46kqfqImgi-IbshBGRs3lMz1HCTBvL8RjFAILShitg"
+              alt=""
+            />
+            <br /><h4>Intenship in Artifical Inteligence and Machine Learning</h4>
+          </div>
+          <div className="cardthree">
+          <img
+              src="https://media.licdn.com/dms/image/D5612AQE0r5WC8r0HQg/article-cover_image-shrink_720_1280/0/1657711469335?e=2147483647&v=beta&t=y46kqfqImgi-IbshBGRs3lMz1HCTBvL8RjFAILShitg"
+              alt=""
+            />
+            <br /> <h4>Intenship in Artifical Inteligence and Machine Learning</h4>
+          </div>
+        </div>
 
-
-
-
-    </div>
         <footer>
           Design and Developed by <span>Aswin Chandran</span>
         </footer>
